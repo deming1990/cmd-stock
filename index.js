@@ -8,9 +8,8 @@ const jetty = new Jetty(process.stdout)
 // https://qt.gtimg.cn/q=sh603599,sz002153
 const BASE_URL = 'https://qt.gtimg.cn/q='
 const STOCKS = [
-  'sh603599',
-  'sh688311', 
-  'sz002153'
+  'sh000001',
+  'sh000002'
 ]
 // 间隔时间最好别太短，超短线不适合摸鱼 哈哈
 const INTERVAL = 5000
