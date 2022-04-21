@@ -7,8 +7,13 @@ const jetty = new Jetty(process.stdout)
 // 示例
 // https://qt.gtimg.cn/q=sh603599,sz002153
 const BASE_URL = 'https://qt.gtimg.cn/q='
-const STOCKS = ['sh000001', 'sh000002', 'sh000003']
-const INTERVAL = 3000
+const STOCKS = [
+  'sh603599',
+  'sh688311', 
+  'sz002153'
+]
+// 间隔时间最好别太短，超短线不适合摸鱼 哈哈
+const INTERVAL = 5000
 
 const ajax = Axios.create()
 
